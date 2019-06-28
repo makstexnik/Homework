@@ -1,0 +1,210 @@
+@font-face
+{
+  font-family: 'Myriad-Pro-Light-SemiExtended';
+  src: url('../fonts/Myriad-Pro-Light-SemiExtended.ttf');
+}
+@font-face {
+  font-family: 'MyriadPro-Bold';
+  src: url('../fonts/MyriadPro-Bold.ttf');
+}
+main {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 15px;
+}
+.left {
+  width: 50%;
+  max-width: 500px;
+  float: left;
+  margin-bottom: 40px;
+}
+.right {
+  width: 50%;
+  max-width: 700px;
+  float: right;
+}
+.elipse { /*Знаю, знаю... тут я тоже намудрил...*/
+  margin-top: 40px;
+  margin-left: 90px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 1px solid #91acd2;
+}
+.elipse-color { /*и тут намудрил*/
+  margin-top: 23px;
+  margin-left: 25px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 1px solid #3d6cb0;
+  background-color: #3d6cb0;
+}
+.name {
+  font-family: 'Myriad-Pro-Light-SemiExtended';
+  font-size: 60px;
+  text-align: center;
+}
+.surname {
+  font-family: 'MyriadPro-Bold';
+  font-size: 55px;
+  text-align: center;
+}
+.graphic {
+  font-family: 'MyriadPro-Bold';
+  font-size: 30px;
+  text-align: center;
+}
+.head span {
+  font-family: 'MyriadPro-Bold';
+  font-size: 40px;
+  color: #3d6cb0;
+  vertical-align: middle;
+  margin-left: 8px;
+}
+.head {
+  margin: 35px 0;
+}
+.line {
+  width: 100%;
+  max-width: 170px;
+  height: 5px;
+  border: 1px solid #3d6cb0;
+  background-color: #3d6cb0;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+.circle:before {  /*Загуглил кружок*/
+  content: ' \25CF';
+  font-size: 40px;
+  color: #3d6cb0;
+  text-align: center;
+  margin-left: 5px;
+}
+.circle-grey:after { /*отступов нет :( беда-беда*/
+  content: '\25CF';
+  font-size: 40px;
+  color: #e6e6e6;
+  text-align: center;
+  margin-left: 15px;
+}
+.skills p {
+  font-family: 'Myriad-Pro-Light-SemiExtended';
+  font-size: 30px;
+  text-align: center;
+}
+.profile p {
+  font-size: 22px;
+  font-family: 'Myriad-Pro-Light-SemiExtended';
+}
+.contact-left, .contact-right {
+  display: inline-block;
+  margin-right: 50px;
+}
+.contact-left p {
+  font-size: 28px;
+  color: #3d6cb0;
+  font-family: 'MyriadPro-Bold';
+}
+.contact-right p {
+  font-family: 'Myriad-Pro-Light-SemiExtended';
+  font-size: 28px;
+}
+.education-header {
+  font-size: 28px;
+  font-family: 'MyriadPro-Bold';
+  color: #3d6cb0;
+  display: inline;
+}
+.education-list span {
+  font-size: 28px;
+  font-family: 'Myriad-Pro-Light-SemiExtended';
+}
+.second-header {
+  font-size: 28px;
+  font-family: 'Myriad-Pro-Light-SemiExtended';
+}
+.discription {
+  font-size: 22px;
+  font-family: 'Myriad-Pro-Light-SemiExtended';
+}
+.experience-list span {
+  font-size: 28px;
+  font-family: 'Myriad-Pro-Light-SemiExtended';
+}
+.experience-head {
+  font-size: 28px;
+  font-family: 'MyriadPro-Bold';
+  display: inline;
+}
+/* .software-left, .software-right {
+  max-width: 300px;
+  display: inline-block;
+  margin-right: 100px;
+} */
+.software-left, .software-right {
+  font-size: 28px;
+  font-family: 'Myriad-Pro-Light-SemiExtended';
+  text-align: left;
+  max-width: 300px;
+  display: inline-block;
+  margin-right: 100px;
+}
+.photoshop-line {
+  width: 100%;
+  height: 20px;
+  background: linear-gradient(to right, #3d6cb0 90%, #e6e6e6 10%);
+}
+.illustrator-line {
+  width: 100%;
+  height: 20px;
+  background: linear-gradient(to right, #3d6cb0 65%, #e6e6e6 35%);
+}
+.indesign-line {
+  width: 100%;
+  height: 20px;
+  background: linear-gradient(to right, #3d6cb0 55%, #e6e6e6 45%);
+}
+.dreamweaver-line {
+  width: 100%;
+  height: 20px;
+  background: linear-gradient(to right, #3d6cb0 80%, #e6e6e6 20%);
+}
+.after-effects-line {
+  width: 100%;
+  height: 20px;
+  background: linear-gradient(to right, #3d6cb0 60%, #e6e6e6 40%);
+}
+.html-line {
+  width: 100%;
+  height: 20px;
+  background: linear-gradient(to right, #3d6cb0 90%, #e6e6e6 10%);
+}
+.footer-logo {
+  width: 100%;
+  max-width: 1200px;
+  height: 100px;
+  float: none;
+}
+.footer-logo__img {
+  max-width: 400px;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+@media all and (max-width:768px) {
+  .left, .right {
+    width: 50%;
+    max-width: 768px;
+    float: none;
+    display: inline;
+  }
+  .elipse {
+    margin-left: 235px;
+  }
+  .elipse-color {
+    margin-left: 25px;
+  }
+}
