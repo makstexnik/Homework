@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+}
+.main {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.section-header {
+  width: 100%;
+  max-width: 1200px;
+  height: 950px;
+  background-image: url('../images/take-logo.png');
+  position: absolute;
+}
+.section-header__text {
+  width: 60%;
+  max-width: 600px;
+  height: 300px;
+  margin-top: 400px;
+  margin-left: 200px;
+}
+.section-header__text-title {
+  font-family: 'Open Sans';
+  font-size: 30px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+.section-header__text-discription {
+  font-family: 'Open Sans';
+  font-size: 20px;
+  line-height: normal;
+  color: #ffffff;
+}
+.section-tagline__title {
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+  background-color: #ffffff;
+}
